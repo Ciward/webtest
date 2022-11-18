@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>hello</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>
+</head>
+
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+<div id="div1">
+	请输入你的名字：
+	<input type="text" size="50" id="input1">
+	
+  <button id="Button1" onClick="f()" style="width: 50px height:30">确定</button>
+</div>
+	
+<style type="text/css">
+	#div1{
+		margin-top: 500px
+	}
+	</style>
+<script>
+	function f(){
+		while(1){
+			alert(document.getElementById("input1").value+"是 SB!!!!");
+			alert("hhhhhhhhh!!!!");
+	}
+	}
+
+		
+$(function() {
+	$( "#Button1" ).button(); 
+});
+</script>	
+	
+	
+</body>
+</html>
