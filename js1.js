@@ -9,7 +9,8 @@ function f(){
 }
 L2Dwidget.init({
         "model": {
-            jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+            //jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+			jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
             "scale": 1
         },
         "display": {
@@ -26,7 +27,15 @@ L2Dwidget.init({
         "react": {
             "opacityDefault": 0.7,
             "opacityOnHover": 0.2
+        },
+		"dialog": {
+            "enable": true,
+            "script": {
+                'tap body': '哎呀！别碰我！',
+                'tap face': '你是SB吗',
+            }
         }
+
     });
 
 		
