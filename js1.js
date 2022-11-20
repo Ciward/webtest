@@ -13,9 +13,9 @@ L2Dwidget.init({
             "scale": 1
         },
         "display": {
-            "position": "left", 
-            "width": 150,  
-            "height": 300, 
+            "position": "right", 
+            "width": 300,  
+            "height": 600, 
             "hOffset": 0,
             "vOffset": -20
         },
